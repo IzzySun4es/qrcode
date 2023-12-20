@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 40px;
+}
+form{
+    display: flex;
+    gap: 20px;
+}
+input[type="text"]{
+    border: 1px solid rgb(29, 168, 52);
+    border-radius: 5px;
+    padding: 10px 55px;
+    font-size: 18px;
+}
+::-webkit-input-placeholder{
+    color: rgb(29, 168, 52);
+}
+input[type="submit"]{
+    border: 1px solid rgb(29, 168, 52);
+    background-color: rgb(214, 253, 221);
+    color: rgb(29, 168, 52);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+img{
+    width: 200px;
+}
